@@ -30,7 +30,7 @@ Podemos calcular cuántos valores hay por encima de la media y cuántos por deba
 
 Hay 62337 datos mayores que 39 y 71252 datos inferiores.
 
-Si dejéramos que la media parte los valores a la mitas estáriamos cometiendo un error menor al 10%.
+Si dejéramos que la media parte los valores a la mitad estaríamos cometiendo un error menor al 10%.
 
 
 
