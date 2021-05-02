@@ -1,12 +1,10 @@
 library(readr)
-library(data.table)
 library(ggplot2)
-library(nortest)
-library(ggpubr)
-library(car)
 
 casos_covid19 <- read_csv("casos_covid19-2.csv")
 head(casos_covid19)
+
+# Aunque la variable se llama marzo de analizó el mes de abril.
 
 marzo <- casos_covid19[casos_covid19$fecha_clasificacion %like% "APR2021", ]
 
@@ -29,8 +27,5 @@ menor <- subset(marzo_conf, marzo_conf$edad < 39)
 summary(menor)
 
 qqnorm(marzo_conf$edad, pch = 1, frame = FALSE)
-qqline(marzo_conf$edad, col = "steelblue", lwd = 2)
-
-qqPlot(marzo_conf$edad)
 
 summary(marzo_conf)
