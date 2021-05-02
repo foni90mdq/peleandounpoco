@@ -42,7 +42,7 @@ Para nuestro ejemplo:
 
 En rojo está indicada la media (promedio) y en azul la mediana.
 
-Para ver cómo se realizaron los cálculos puede acceder al script de R [aquí](analis-covid.R).
+Para ver cómo se realizaron los cálculos puede acceder al script de R [aquí](analisis-covid.R).
 
 
 Para más info sobre medias y medianas
