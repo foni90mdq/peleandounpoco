@@ -12,7 +12,7 @@ Primero filtramos los datos para quedarnos sólo con la población que dio posit
 
 Luego podemos hacer un histograma para tener un idea de cómo se distribuyen los datos.
 
-![](/home/foni/Documents/covid19/histo1.png)
+![](histo1.png)
 
 
 
@@ -38,7 +38,7 @@ Dada la distribución podemos asumir normalidad (pueden hacer un Q-Q plot para c
 
 Para nuestro ejemplo:
 
- ![](/home/foni/Documents/covid19/histo2.png)
+ ![](histo2.png)
 
 En rojo está indicada la media (promedio) y en azul la mediana.
 
